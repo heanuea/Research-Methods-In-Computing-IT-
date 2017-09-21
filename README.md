@@ -20,7 +20,7 @@ LaTeX is a high-quality typesetting system; it includes features designed for
 the production of technical and scientific documentation. LaTeX is the de facto
 standard for the communication and publication of scientific documents. 
 
-## **_Approach the Research_**
+## **_Approach_**
 
 - I will be reading up on my topic and be sticking up all me findings up here on Github. 
 - Firstly i will set up a Wiki on my github where i will set my chapers and sections of the paper 
