@@ -28,4 +28,6 @@ you can find the link to my wiki here if you click on Wiki.
 - I will be studying Latex in class and as i go.
 - All references will be documented.
 - Proof read.
-```
+
+## **_Research Papers i read_**
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.8398&rep=rep1&type=pdf
