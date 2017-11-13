@@ -29,13 +29,11 @@ you can find the link to my wiki here if you click on Wiki.
 - All references will be documented.
 - Proof read.
 - Google docs were a great help wrting my review 
-## **_Added to project and wiki_**
- ![N|Solid](https://cldup.com/opYHcd0r11.jpg)
-
-
-## **_Research Papers i read_**
 
 ## **_Research Diagram_**
+ ![N|Solid](https://cldup.com/opYHcd0r11.jpg)
+
+## **_Research Papers i read_**
 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.8398&rep=rep1&type=pdf
 
 https://www.technologyreview.com/the-download/608832/facial-recognition-is-getting-incredibly-powerful-and-ever-more-controversial/
