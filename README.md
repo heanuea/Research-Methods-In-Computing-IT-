@@ -1,7 +1,5 @@
 # Research-Methods-In-Computing-IT-
 
-## **_Introduction_**
-I 
 
 ## **_Course Project_**
 Produce a Literature review on area of active research 
@@ -36,7 +34,7 @@ you can find the link to my wiki here if you click on Wiki.
 ## **_Research Diagram_**
  ![N|Solid](https://cldup.com/opYHcd0r11.jpg)
 
-## **_Research Papers i read and articles_**
+## **_Research Papers & articles_**
 - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.8398&rep=rep1&type=pdf
 
 - https://www.technologyreview.com/the-download/608832/facial-recognition-is-getting-incredibly-powerful-and-ever-more-controversial/
@@ -50,3 +48,11 @@ you can find the link to my wiki here if you click on Wiki.
 - https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
 
 - https://blog.octo.com/en/basics-face-recognition/
+
+- https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
+
+## **_Websites_**
+- https://www.kairos.com/blog/is-facial-recognition-already-part-of-your-everyday-life-yes
+- https://jadelearning.com/jadecc/courses/UNIVERSAL/NEC05.php?imDif=6489.0
+- http://www.bbc.com/news/technology-33199275
+- https://www.youtube.com/watch?v=sWTvK72-SPU
