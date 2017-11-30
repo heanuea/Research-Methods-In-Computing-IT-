@@ -1,0 +1,91 @@
+
+\documentclass[journal]{IEEEtran}
+\usepackage[utf8]{inputenc}
+
+\usepackage[sorting=none]{biblatex}
+\addbibresource{bibliography.bib}
+
+\begin{document}
+
+\markboth {quick Evolution of Facial Recognition, December~2017}%
+{A quick Evolution of Facial Recognition, December~2017}
+
+\title{A quick Evolution of Facial Recognition}
+\author{Alan Heanue,~\IEEEmembership{Software Development (Honours),~GMIT}%
+}
+% Author: Alan Heanue
+% Student of Galway-Mayo Institute of Technology, Department of Computer Science and Applied Physics
+% Literature Review on 5G Mobile Communications completed as part of Research Methods in Computing and IT.
+
+\maketitle
+
+\begin{abstract}
+Facial Recognition technology has been around long time and has been baffling scientists since the 60s. With the help of some old algorithms and new technology it is fast becoming the most popular biometric around. Its a non physical approach to identify a face so this does leave the question of security and privacy. Social media has a helping hand on this technology and has the data and resources to further the study in Facial recognition.
+
+\end{abstract}
+\begin{IEEEkeywords}
+biometrics, Faceprint, eigenface, technology.
+\end{IEEEkeywords}
+
+
+
+
+
+\section{Introduction}
+Facial recognition software has reached an incredibly high standard in the last couple of years. So high in that the technology is robust enough to be used across China to authorize payments and to catch trains.
+What is face detection and recognition well detection is when the software can detect pixels in an image that represents a face using a set of algorithms and Face recognition is a more enhanced version of detection by analyzing the face that was detected. It does this by measurements in the face and distances between eyes, nose and jawline the points are called nodal points and are than changed into numerical code. Faceprint is what this is called, Faceprint than tries to match a face from a database or if there is no face for it to match it will save the faceprint to a database. Than when this faceprint is searched again this face will be matched. There is different types of uses behind facial recognition but there is three main approaches to the problem. The different Methods of face recognition such as geometric approach, elastic matching and neural networks which is the most widely used today. \cite{methods}
+With the methods getting better and more advanced and with neural networks ever learning and recognizing similar faces. With people sharing photos and tagging each other this gives social websites more data to improve the technology and with some of the social media websites storing data it can give them an advantage on the facial recognition technology, but the fact each one us has a mobile with not just one camera but several cameras build into them, especially the front facing one that is used for scanning faces or just taking a selfie.
+In this technology review really focuses on is how facial recognition technology and how it evolved but most importantly how it will be used in more just than just taking a selfie. The technologies behind it and how privacy is a big concern and do we have any choice and the end of it all. 
+
+\section{
+PROBLEMS AND DIFFICULTY
+}.\newline
+Facial recognition was never an easy task, it has several algorithms and methods that  was developed over the years  to improve it but it was an always difficult task for researchers and developers to perfect. Some of the issues that facial recognition brings with it is the lighting and skin tone this problem is called the Illumination problem. Illumination problem arises due to uneven lighting on faces. This uneven lightning brings variations in illumination which affects the classification greatly since the facial features that are being used for classification gets affected due to this variation.The Illumination Problem In the past few years, many approaches to cope up
+with illumination variations have been proposed. All the approaches towards illumination problem can be broadly
+categorized as: transformation of images with variable illumination to a canonical representation, extracting
+illumination invariant features, modeling of illumination variation and utilization of some 3-d face models whose
+facial shapes and albedos are obtained in advance\cite{Illumation}.
+Another problem is the pose of the face and the aging all these problems are very hard to come up with a solution. This is a problem that has been at scientists and mathematicians for years. 
+But that is more of a software issue other difficulties are objects on a face like classes or wearing a hat all these can be captured and can effect the facial recognition and spoof it\cite{Illumation}. 
+
+\section{Methods and algorithms }
+But it had to start from somewhere In around the 1960s a few mathematicians and scientists were researching facial recognition they created a semi automated facial recognition program. It needed an admin to locate features on the face like mouth, nose and eyes on a picture or photograph. They then calculated the distance between the features of your face and made points out of them and then it was compared to the reference database they set up. It eventually it got better with adding algorithms to parts of features like shape and sizes but still had to be manually added in. Onto the eighties and nineties they started using linear algebra which saved time than adding markers on to the face but had to correct figures to be accurate  to get the perfect readings. In the Late 80s Sirovich and Kirby came up with adding principal component analysis (PCA) to the images , and showed that PCA is an optimal compression scheme that minimizes the mean squared error between the original images and their reconstructions for any given level of compression
+
+\subsection{EiganFace.}
+EigenFace was then used by Turk and Pentland for face experiments and classification.They used the PCA to compute a set of subspace basis vectors called Eigenface.This is still widely used along with other methods like Linear Discriminant analysis (LDA) and Independent Component Analysis(ICA) but Eigenface is the more popular.
+Principal Component Analysis goes back as far back to around 1988. Eigenfaces are just 2-Dimensional facial images, which are composed of gray-scale pictures\cite{eigen}.
+Hundreds of Eigenfaces can be stored in the database of a Facial Recognition system.When the facial images are actually captured, this library of Eigenfaces are placed over the facial images, they are layered over each other. The differences are than calculated between the facial Images (trained) and the Eigenfaces, the different weights are taken down are noted down. The Principal component analysis gives it a one dimensional image of the face, how this works is that facial images are converted into a Geo coordinate system. With this method any changes to a features on a face it will need to be recalculated from beginning to end. The disadvantage of Principal component analysis it needs a clear and full image of the face\cite{pca}.     
+
+\subsection{LDA.}
+Linear Discriminant Analysis (LDA) is another method of capturing facial recognition. It works by the image being projected into a vector space. The basic theory to this is that Linear discriminant Analysis is to calculate raw data point from a single raw data record. The linear calculations than taken down pixels values are obtained and than are plotted. The method is called fisherface which is a slightly better than pca as it takes in the lighting differences, this helps when different poses occur\cite{pca}.
+
+\subsection{EBGM.}
+Elastic Bunch graph Mapping takes a different approach to the facial recognition method. It creates a facial map with nodes placed around the map. These nodes are measured and have landmark features on it for example the eyes, nose and lips. It calculates by the lighting differences and poses of the face\cite{methods}.
+
+
+In the early 1990s facial recognition got pushed into a more commercial market as a program which was ran by The defence advanced research projects Agency. The National standard of tech teamed up and they started a project that created a database of images. It was basic facial images than was upgraded to a high resolution version. In 2003 they had over 3000 images of around 800 faces this project was built to Innovate other companies and tech groups to build a better recognition technology.
+
+
+\section{Privacy }
+Cameras have been recognizing people for over 4 decades but now with cameras on phones and other devices people have accepted that privacy is a real issue.  privacy one of the major talking points of facial recognition and is been debated about in some countries about bringing facial recognition into scanning people's faces during big events . Another issue on that is the taking pictures without consent of the person and storing faces and data in a database. With companies not asking for permission there will always be issues as many major campaigners making an issue in how these images are been used or stored. Regulators and privacy campaigners ever see eye to eye but the fact more technologies are using facial recognition as a key to unlock your device and some even using faces as a data mining to build a better service like Facebook and Google. On the other hand terrorism is at focal point at the moment and with most facial recognition research has been funded by governments interested in its potential for streamlining surveillance. When 9/11 happened videos caught the terrorist going into the airport and boarding the plane with events like this happening the data from facial recognition  was highly looked into and has been debated about.There will always be that debate about privacy but with more people scanning faces on applications and tagging the numbers will show that the everyday person is not concerned about their privacy.
+
+\section{Social Media}.\newline
+Facebook has been working on facial recognition since 2010 and has greatly improved on the technology. They started with Tag suggest which can scan your photographs using the technology,  they can scan and detect the human face on each photo. The algorithm used behind this facial recognition technology can calculate numerical identifiers for each individual face based on the distance between your eyes and nose it also can scan shapes and unique birthmarks on the face, this than reads back into the database and tries to identify the person first it will check the people you have tagged before and then it will go through your friends that have been tagged and suggest them this caused issues first as the friends that were getting tagged didn't get notified but eventually they patched it up over a bit of controversy over the media\cite{9503739920140321}. With that millions of photos and users were tagged and the popularity never effected Facebook in terms of number of users. 
+
+But Facebook has been using  technology that actually recognizes the face very accurately. Instead of scanning your face and analyze different features on the face such as nose and eyes and make an algorithmic faceprint of the person's face, they now use 3d face modelling this new technology helps Facebook scan your face at different angles. Facebook Deep-face technology can accurately  identify a subject with 97 accuracy this technology is far more superior than what major government bodies use for security.  To get this accuracy it is trained by one of the largest facial data sets, around four million images belonging to around four thousand people. With this Facebook gets the neural networks to integrate with data and deep-face to get a match on a single face, this works by remembering a matched face or not remembering a matched face. It eventually creates a road map which keeps adding to it whenever it gets a match in 2014 it had around 20 million matches or connections\cite{DeepFace}.
+
+
+\subsection{FindFace}
+Find-face on the other hand can change the way we look at facial recognition in terms of privacy. FindFace is a website that connects to a social media platform VK, by uploading photos of strangers you can find them on VK which is a Russian type of Facebook. The app can search through over a nine hundred million photos in less than a minute. It has a 73.3 accuracy on one million faces which beat other programs in many different tests. After that test NTech lab suggested .that it could be used by the police over in the states as its been tested in Russia for searching criminals. FindFace has such a great algorithm it does not need good lighting or a perfect angle it can find a face on the social site VK mostly used for people who want to date or know a stranger by uploading the photo of the stranger, and finding the that person so you can message them on the VK. 
+
+\section{conclusion}.\newline
+In this paper we looked at the way facial recognition has been around and researched for years. It is has been a biometric that has scientists baffled in terms in how it is not easy to perfect it. We also looked at the different methods and algorithms used to and try perfect the facial recognition we really saw how some algorithms have been around since the eighties. But the main point we discovered was that the more data you have which in this case is photos of faces and faceprints we have stored the better the outcome. Neural networks is big now and with all the data that is stored especially pictures of people and tagged in them, this helps the neural networks learn better and have your faceprint saved. Social media now has a big hand in this and the likes of Facebook improving the facial recognition technology you can they have the resources to do so. But the question is we still ask is it a good thing that our face is on database and saved for the privacy concerns, or is it a good thing now in the world we live in terms of security this will always be an issue . The technology has improved drastically in the last years so the facial recognition is also improving with the help of that.
+
+Overall The Facial Recognition technology is no where near at its peak at the moment, but the popularity with mobile devices and unlocking them with your face is been around for a few years now we can say Its all about to get big and no signs of slowing down. 
+
+
+
+\bigskip
+
+\printbibliography
+\end{document}
